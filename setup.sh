@@ -25,6 +25,8 @@ fi
     # bash-it enable plugin \
     #   git \
     #   go \
+    #   history \
+    #   history-search \
     #   ruby \
     #   rvm
 
