@@ -8,6 +8,8 @@ brew 'curl'
 brew 'wget'
 brew 'ripgrep'
 brew 'cloc'
+brew 'ripgrep'
+brew 'go'
 
 cask 'macdown'
 cask 'rubymine'
