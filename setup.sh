@@ -33,6 +33,4 @@ fi
 dotfiles="$PWD/dotfiles"
 # setup git to be ergonomic
 ln -sf "$dotfiles/.git-authors" "$HOME/.git-authors"
-if grep "$dotfiles/.git-config" -q -f "$HOME/.gitconfig" ; then
-    cat "$dotfiles/.git-config" >> "$HOME/.gitconfig"
-fi
+ln -sf "$dotfiles/.git-config" "$HOME/.gitconfig"

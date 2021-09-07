@@ -1,7 +1,9 @@
+[url "ssh://git@github.com/"]
+  insteadOf = https://github.com/
 [alias]
   blog="log origin/master... --left-right"
   br=branch
-  ci=commit
+  ci=duet-commit
   co=checkout
   dc=diff --cached
   di=diff
