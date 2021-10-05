@@ -1,0 +1,9 @@
+   bash-it enable alias \
+    git \
+    curl
+   bash-it enable plugin \
+    git \
+    go \
+    history-search \
+    ruby \
+    rvm

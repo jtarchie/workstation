@@ -2,6 +2,8 @@
 
 set -eux
 
+which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 # install deps from `brew`
 brew bundle
 # check that the script is a good bash citizen
