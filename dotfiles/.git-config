@@ -1,5 +1,7 @@
 [url "ssh://git@github.com/"]
   insteadOf = https://github.com/
+[push]
+  autoSetupRemote=true
 [alias]
   blog="log origin/master... --left-right"
   br=branch
