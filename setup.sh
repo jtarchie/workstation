@@ -6,8 +6,7 @@ which brew || /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homeb
 
 # install deps from `brew`
 brew bundle
-# check that the script is a good bash citizen
-shellcheck setup.sh
+brew install git-duet/tap/git-duet
 
 # set the shell to bash
 if [ "$SHELL" != "/usr/local/bin/bash" ]; then
